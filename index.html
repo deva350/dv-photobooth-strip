@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DV Photobooth</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📸 DV Photobooth Strip</h1>
+  <video id="video" autoplay playsinline></video>
+  <button id="startBtn">Start Countdown</button>
+  <div id="countdown"></div>
+  <div class="framestrip">
+    <canvas class="photo" id="photo1"></canvas>
+    <canvas class="photo" id="photo2"></canvas>
+    <canvas class="photo" id="photo3"></canvas>
+  </div>
+  <button id="downloadBtn">Download Strip</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+video {
+  width: 90%;
+  max-width: 300px;
+  border: 5px solid red;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+#countdown {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: yellow;
+}
+
+.framestrip {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+canvas.photo {
+  width: 240px;
+  height: 320px;
+  border: 5px solid white;
+  border-radius: 10px;
+  background: #222;
+}
