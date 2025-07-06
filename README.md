@@ -1,0 +1,1 @@
+# dv-photobooth-strip
